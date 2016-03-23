@@ -1,7 +1,7 @@
 需要权限
-<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+//<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+//<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+//<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
 
 
 使用方法：
