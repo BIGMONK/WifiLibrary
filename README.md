@@ -9,7 +9,7 @@ WifiLibInitializer.init(this);
 WifiLib.getInstance().setOnWifiBroadcastReceiveCallback(OnWifiBroadcastReceiveCallback cbk);  
 第四步，调用相关方法进行wifi操作  
 WifiLib.getInstance().openWifi() //打开wifi  
-WifiLib.getInstance().closeWifi() //打开wifi  
+WifiLib.getInstance().closeWifi() //关闭wifi  
 WifiLib.getInstance().startScan(long periodMillis) //开始扫描wifi热点,扫描结果在第二步的回调中获取  
 WifiLib.getInstance().stopScan() //停止热点扫描  
 WifiLib.getInstance().createAccessPoint(int apType, String ssid, String password) //创建wifi热点  
